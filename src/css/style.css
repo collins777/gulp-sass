@@ -1,0 +1,7 @@
+body {
+  background-color: teal;
+  color: #fff; }
+
+h1 {
+  -webkit-filter: blur(20px);
+  filter: blur(20px); }

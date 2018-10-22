@@ -1,0 +1,12 @@
+// Test
+
+$body-bg: teal;
+
+body {
+  background-color: $body-bg;
+  color: #fff;
+}
+
+h1 {
+  filter: blur(20px);
+}

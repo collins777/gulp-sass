@@ -26,10 +26,11 @@ gulp.task("serve", ["sass"], function() {
     server: "./src"
   });
 
-  gulp.watch(["src/scss/*.scss"], ["sass"]); // constantly watches for changes in the files listed in the given array
+  gulp.watch(["./**/*.scss"], ["sass"]); // watches for changes in the given files
   gulp.watch(["src/*.html"]).on("change", browserSync.reload); // watch for all html files found in the src folder and reload the browser when changes occur
 });
 
 // Defualt
 
 gulp.task("default", ["serve"]);
+
